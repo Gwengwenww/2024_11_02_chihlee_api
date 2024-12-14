@@ -12,4 +12,4 @@ except Exception as error:
     st.write("喝杯咖啡!請等一下再試!")
     st.stop()
 else:
-    st.write(youbike_data)
+    st.table(youbike_data)
